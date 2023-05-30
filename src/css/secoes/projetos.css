@@ -45,7 +45,7 @@
     border-top-right-radius: 4px;
 }
 
-.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
+.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2n+1) {
     font-weight: 500;
     margin-top: 10px;
     font-size: 1.4rem;
