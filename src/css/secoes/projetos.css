@@ -45,7 +45,7 @@
     border-top-right-radius: 4px;
 }
 
-.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2n+1) {
+.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
     font-weight: 500;
     margin-top: 10px;
     font-size: 1.4rem;
@@ -62,4 +62,16 @@
     padding-bottom: 10px;
     padding-top: 10px;
     bottom: 0;
+}
+
+.projetos .container-projetos .projeto .github-pages a {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.projetos .container-projetos .projeto .github-pages a:hover {
+    color: var(--cor-primaria);
 }
