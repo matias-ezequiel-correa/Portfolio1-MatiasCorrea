@@ -21,6 +21,11 @@
     align-self: center; 
 }
 
+.sobre-mim .informacoes-sobre-mim span{
+    color: var(--cor-primaria);
+}
+
+
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
 }
@@ -30,6 +35,10 @@
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+p::selection{
+    background-color: var(--cor-fundo);    
+  }
 
 @media(max-width: 1280px) { 
     .sobre-mim .row{
