@@ -3,13 +3,13 @@
 
 html {
     font-size: 62.5%;
-    color: var(--cor-branca);
+    color: var(--cor-clara);
     font-weight: 300;
     scroll-behavior: smooth;
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background-color: var(--cor-fundo-escura);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
@@ -18,7 +18,7 @@ html {
     max-width: 1140px;
     margin: auto;
   }
-  
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +38,7 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    color: var(--cor-branca);
+    color: var(--cor-clara);
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -53,11 +53,11 @@ html {
   }
 
   .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+    box-shadow: 3px 3px #01273e, -3px -3px 3px #014a75;
   }
   
   .inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+    box-shadow: inset 3px 3px 3px #01273e, inset -3px -3px 3px #014a75;
   }
 
   .section{
@@ -76,6 +76,10 @@ html {
     font-weight: 500;
     text-transform: uppercase;
   }
+
+  .section-title h2::selection {
+    background-color: var(--cor-fundo-cinza-claro);
+  }
   
   .botao {
     font-size: var(--fonte-grande);
@@ -87,5 +91,5 @@ html {
   
   .botao:hover {
     background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
+    color: var(--cor-clara);
   }
