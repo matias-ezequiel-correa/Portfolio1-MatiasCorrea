@@ -5,7 +5,7 @@
   Matías Ezequiel Correa - Portfólio <img src="https://i.ibb.co/zQ9KsTy/file-folder-1f4c1.png">  
 </h1>
 <p align="center">
-  Este é meu portfólio pessoal <a href="https://matias-ezequiel-correa.github.io/Portfolio1-MatiasCorrea/" target="_blank">Matías Ezequiel Correa - Desenvolvedor Frontend,</a> é um website que
+  Este é meu portfólio pessoal <a href="https://matias-ezequiel-correa.github.io/Portfolio1-MatiasCorrea/" target="_blank">Matías Ezequiel Correa - Desenvolvedor FullStack,</a> é um website que
  contém informações sobre mim, minhas habilidades e meus projetos, atualmente hospedado no <a href="https://github.com/matias-ezequiel-correa">GitHub-Pages</a>.
 </p>
 
