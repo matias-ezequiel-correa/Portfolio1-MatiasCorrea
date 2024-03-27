@@ -45,7 +45,8 @@ p::selection{
         justify-content: center;
     }
 
-    .sobre-mim .imagem-sobre-mim {        
+    .sobre-mim .imagem-sobre-mim { 
+        display: none;       
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 50px;
