@@ -54,7 +54,7 @@
   <section class="home">
     <div class="container">
       <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
+        <div class="texto-home" data-anime="left">
           <p>Olá 👋,</p>
           <h1>Sou o <span>Matías Correa</span></h1>
           <h2>Desenvolvedor Full Stack Jr</h2>
@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <div class="img-home">
+        <div class="img-home" data-anime="right">
           <div class="img-box inner-shadow">
             <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto de perfil do Matías" />
           </div>
@@ -82,17 +82,17 @@
   <section class="sobre-mim section" id="sobre-mim">
     <div class="container">
       <div class="row">
-        <div class="section-title">
+        <div class="section-title" data-anime="down">
           <h2>Sobre mim</h2>
         </div>
       </div>
       <div class="row">
-        <div class="imagem-sobre-mim">
+        <div class="imagem-sobre-mim" data-anime="left">
           <div class="img-box inner-shadow">
             <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
           </div>
         </div>
-        <div class="informacoes-sobre-mim">
+        <div class="informacoes-sobre-mim" data-anime="up">
           <p>
             <strong>Olá! Me chamo <span>Matías Correa</span> e sou um desenvolvedor fullstack!</strong> Sou uma pessoa
             responsável, organizada e focada , que busca crescer na área de tecnologia, pois tenho certeza que posso
@@ -128,12 +128,12 @@
   <section class="habilidades section" id="habilidades">
     <div class="container">
       <div class="row">
-        <div class="section-title">
+        <div class="section-title" data-anime="down">
           <h2>Habilidades Backend</h2>
         </div>
       </div>
 
-      <div class="container-habilidades">
+      <div class="container-habilidades" data-anime="up">
         <div class="informacoes javascript">
           <div class="logo">
             <i class="devicon devicon-javascript-plain" id="javascript"></i>
@@ -201,12 +201,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="section-title">
+        <div class="section-title" data-anime="down">
           <h2>Habilidades Frontend</h2>
         </div>
       </div>
 
-      <div class="container-habilidades">
+      <div class="container-habilidades"  data-anime="up">
         <div class="informacoes react">
           <div class="logo">
             <i class="devicon devicon-react-original" id="react"></i>
@@ -239,12 +239,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="section-title">
+        <div class="section-title"  data-anime="down">
           <h2>Outras Habilidades</h2>
         </div>
       </div>
 
-      <div class="container-habilidades">
+      <div class="container-habilidades" data-anime="up">
         <div class="informacoes github">
           <div class="logo">
             <i class="devicon devicon-github-original" id="github"></i>
@@ -297,15 +297,15 @@
     </div>
   </section>
 
-  <section class="projetos section" id="projetos">
+  <section class="projetos section" id="projetos" >
     <div class="container">
       <div class="row">
-        <div class="section-title">
+        <div class="section-title" data-anime="down">
           <h2>Meus projetos</h2>
         </div>
       </div>
 
-      <div class="container-projetos">
+      <div class="container-projetos" data-anime="up">
         <div class="projeto">
           <a href="https://matias-ezequiel-correa.github.io/mini-portfolio-MatiasCorrea/" target="_blank">
             <img src="./src/arquivos/projeto-miniportfolio.png" alt="projeto-mini-portfolio" />
@@ -709,6 +709,7 @@
       </div>
     </div>
   </footer>
+  <script src="src/js/index.js"></script>
 </body>
 
 </html>
