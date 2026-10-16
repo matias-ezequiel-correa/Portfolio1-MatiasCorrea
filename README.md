@@ -9,7 +9,7 @@
  contém informações sobre mim, minhas habilidades e meus projetos, atualmente hospedado no <a href="https://github.com/matias-ezequiel-correa">GitHub-Pages</a>.
 </p>
 
-![demo](https://i.ibb.co/9WzYszf/desktop-layout-fullstack.png)
+![demo](https://i.ibb.co/67433zZb/desktop-layout-fullstack-2026.png) 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
